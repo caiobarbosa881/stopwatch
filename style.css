@@ -1,3 +1,63 @@
+html{
+    background-color:rgb(0, 255, 136);
+}
+.container{
+    height: 300px;
+    width: 300px;
+}
 .buttons-div{
-    background-color:aqua;
+}
+.centercontainer{
+    width: 1000px;
+    height: 800px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.centerbuttons{
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    top: 400px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.circulo{
+    border-radius: 30%;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: -270px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    text-align: center;
+    justify-content: center;
+    line-height: 350px;
+    font-size: 50px;
+}
+input{
+    margin-left: 45px;
+    background-color: rgb(66, 157, 241);
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    border: 0;
+    font-size: 16px;
+    padding: 16px 30px;
+    color: white;
+}
+input:hover{
+    background-color: rgb(66, 92, 241);
+}
+#timer{
+    color: black;
 }
