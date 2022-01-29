@@ -1,6 +1,8 @@
-var v1 = document.querySelector(".timer");
-
+    var v1 = document.querySelector(".timer");
+    
 function iniciar(){
-    v1.innerHTML = v1.innerHTML;
-   
+    setInterval(function(){
+        var v1 = document.querySelector(".timer");
+        v1.innerHTML++;
+    }, 1000);
 }
